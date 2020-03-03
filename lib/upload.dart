@@ -1,0 +1,18 @@
+// Created by Anil Sharma  04-03-2020
+
+import 'package:flutter/material.dart';
+
+class Upload extends StatefulWidget {
+  @override
+  _UploadState createState() => _UploadState();
+}
+
+class _UploadState extends State<Upload> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Center(child: Text("Upload screen")),
+
+    );
+  }
+}
